@@ -1,5 +1,12 @@
 # Robot Framework Debug Listener
 
+## Introduction
+
+The purpose of this project is to create a simple-to-use and non-intrusive debug library for robot framework. The main points is:
+
+* Provide a simple REPL for breaking, stepping and resuming test execution
+* Provide a language debug server for code editors (primarily vscode)
+
 ## Notes
 
 The concept seems reasonable enough, even though there will be some overhead in the constant messages being passed between the listener and debug server.
@@ -10,7 +17,6 @@ For a first step, add a repl to the debug server so that a user can press a key 
 
 ## Todo
 
-* Push to github repository
 * Implement commandline (repl)
 * Add timeouts to debug server
 * Add unit tests
